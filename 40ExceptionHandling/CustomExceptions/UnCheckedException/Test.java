@@ -1,0 +1,8 @@
+public class Test{
+   public static void main(String[] args){
+  	m1();
+   }
+	public static void m1(){
+		throw new A();
+	}
+}

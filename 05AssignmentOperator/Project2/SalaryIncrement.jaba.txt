@@ -1,0 +1,13 @@
+import java.util.Scanner;
+public class SalaryIncrement {
+	public static void main(Stirng[] args) {
+	Scanner sc = new Scanner(System.in);
+	System.out.print("Enter Salary:");
+	int sal = sc.nextDouble();
+	System.out.print("Enter increment:");
+	int perc = sc.nextInt();
+	int increment = (sal * perc)/100;
+	int sal +=increment;
+	System.out.print("Salary increased is:"+ sal);
+	}
+}
